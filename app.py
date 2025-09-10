@@ -1,3 +1,18 @@
+#   Copyright [2025]() [Bommagani Sai Teja Goud](https://github.com/saitej0045)
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+
 from transformers import MBartForConditionalGeneration, MBart50Tokenizer
 from PIL import Image
 import streamlit as st
@@ -365,7 +380,7 @@ st.sidebar.markdown("""
 # Footer
 st.markdown("""
 <div class="footer">
-    <p style="margin-bottom: 1rem; color: #1f2937;">Made with ❤️ by <strong>B Sai Teja Goud</strong></p>
+    <p style="margin-bottom: 1rem; color: #1f2937;">Made with ❤️ by <strong>Bommagani Sai Teja Goud</strong></p>
     <p style="font-size: 0.9rem; color: #6b7280;">
         Questions or issues? <a href="mailto:saitej0045@gmail.com?subject=Multilingual Translator WebApp!&body=Please specify the issue you are facing with the app." style="color: #3b82f6; text-decoration: none;">Contact me</a>
     </p>
